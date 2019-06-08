@@ -17,7 +17,6 @@ body {
 }
 
 .container {
-    width: 100%;
     max-width: 1170px;
     padding: 0 15px;
 
@@ -162,4 +161,12 @@ body {
 .features__item {
     width: 33%;
     padding: 0 15px;
+}
+
+.features__title {
+    font-size: 22px;
+}
+
+.features__text {
+    opacity: 0.66;
 }
