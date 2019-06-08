@@ -241,3 +241,21 @@ body {
 .reviews__partners-img {
     opacity: 0.66;
 }
+
+/* Window section */
+
+.window {
+    padding: 100px 0 470px;
+    background-color: #f6f5f3;
+
+    text-align: center;
+
+    background-image: url(../img/window.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.window .section__wrapper {
+    max-width: 670px;
+    margin: 0 auto;
+}
