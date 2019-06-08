@@ -8,7 +8,7 @@ body {
     line-height: 26px;
     color: #282828;
 
-    max-width: 1440px;
+    width: 1440px;
     box-shadow: 0 0 25px -5px grey;
 }
 
@@ -128,10 +128,9 @@ body {
     right: 0;
 
     background-color: #ececec;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' fill='%23ff6d6d' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0 50, 50 0, 50 50'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' fill='%23ff8a8a' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0 50, 50 0, 50 50'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: bottom;
-    opacity: 0.8;
 }
 
 .unique .section__wrapper {
@@ -169,4 +168,19 @@ body {
 
 .features__text {
     opacity: 0.66;
+}
+
+/* Design section */
+
+.design {
+    padding: 130px 0 140px;
+    background-image: url(../img/macbook.png), url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' fill='%23ff8a8a' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0 0, 8 0, 50 50, 0 50'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 70px center, left bottom;
+}
+
+.design .section__wrapper {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: 60px;
 }
