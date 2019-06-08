@@ -9,6 +9,7 @@ body {
     color: #282828;
 
     max-width: 1440px;
+    box-shadow: 0 0 25px -5px grey;
 }
 
 *, *::afeter, *::before {
@@ -16,7 +17,9 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
 
     margin: 0 auto;
 }
@@ -60,6 +63,11 @@ body {
     border: none;
 }
 
+.intro__play:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
 .intro__btn {
     display: block;
     padding: 12px 50px;
@@ -77,4 +85,81 @@ body {
     font-size: 14px;
     font-weight: 400;
     opacity: 0.6;
+}
+
+/* Sections */
+
+.section__suptitle {
+    text-transform: uppercase;
+    color: #ff6d6d;
+}
+
+.section__title {
+    margin: 0;
+    margin-bottom: 40px;
+
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: inherit;
+}
+
+.section__title-dots {
+    color: #ff6d6d;
+}
+
+.section__text {
+    opacity: 0.66;
+}
+
+/* Unique section */
+
+.unique {
+    padding: 190px 0 170px;
+    position: relative;
+}
+
+.unique::after {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: #ececec;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 50' fill='%23ff6d6d' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0 50, 50 0, 50 50'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: 0.8;
+}
+
+.unique .section__wrapper {
+    max-width: 570px;
+}
+
+/* Features section */
+
+.features {
+    padding: 130px 0 170px;
+    text-align: center;
+
+    background-image: url(../img/features-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features .section__suptitle {
+    display: block;
+}
+
+.features__list {
+    display: flex;
+    margin-top: 85px;
+}
+
+.features__item {
+    width: 33%;
+    padding: 0 15px;
 }
